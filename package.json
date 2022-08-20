@@ -1,0 +1,21 @@
+{
+  "name": "email-clean",
+  "version": "1.0.0",
+  "description": "Takehome assignment for an interviewing process.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node dist/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blastedt/email-clean.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blastedt/email-clean/issues"
+  },
+  "homepage": "https://github.com/blastedt/email-clean#readme"
+}
