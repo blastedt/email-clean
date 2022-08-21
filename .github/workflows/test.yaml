@@ -6,6 +6,9 @@ jobs:
     name: Test with Jest
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          npm install
-          npm run test
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install
+        run: npm install
+      - name: Test
+        run: npm run test
