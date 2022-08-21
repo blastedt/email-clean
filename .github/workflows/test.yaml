@@ -4,5 +4,6 @@ on:
 jobs:
   test_repository:
     name: Test with Jest
+    runs-on: ubuntu-latest
     steps:
       - run: npm run test
