@@ -1,0 +1,8 @@
+name: Test with Jest
+on:
+  push
+jobs:
+  test_repository:
+    name: Test with Jest
+    steps:
+      - run: npm run test

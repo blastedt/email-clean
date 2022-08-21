@@ -13,4 +13,4 @@ Replaces the `name`, `username`, `email`, and `password` fields in an arbitrary 
 `npm run test`
 
 ### Use
-Import `scrub-object` from either `dist/scrub-object.js` or `src/scrub-object` and call the `scrub` function to scrub an object.
+Import `scrub-object` from either `dist/scrub-object.js` (after building) or `src/scrub-object` and call the `scrub` function to scrub an object.
