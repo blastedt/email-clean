@@ -4,6 +4,10 @@ Takehome assignment for an interviewing process.
 Replaces the `name`, `username`, `email`, and `password` fields in an arbitrary JSON blob with six asterisks.  Only the local part of an email is replaced; the domain is left alone.
 
 
+## Github Actions
+
+The tests for this repo are running in Github Actions.  Select the Actions tab at the top to see the latest build.
+
 ## Running
 
 ### Build
